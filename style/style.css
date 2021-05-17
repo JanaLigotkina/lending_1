@@ -22,7 +22,7 @@ a:visited {
 }
 
 video {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -48,6 +48,10 @@ video {
   display: flex;
   flex: auto;
   justify-content: space-between;
+}
+
+.section:not(header) .container .inner {
+  align-items: center;
 }
 
 .heading-text {
@@ -201,11 +205,21 @@ video {
 
 .section.story .story__video {
   display: flex;
+  position: relative;
   width: 896px;
   height: 516px;
   align-items: center;
   justify-content: center;
   padding-left: 16px;
+}
+
+.section.story #playButton {
+  position: absolute;
+  z-index: 2;
+}
+
+.section.story #story-video {
+  z-index: 1;
 }
 
 .section.our-product .container {
