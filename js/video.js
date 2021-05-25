@@ -10,3 +10,8 @@ playButton.addEventListener('click', function () {
     }, 60);
 });
 
+videoPl.addEventListener('click',function(){
+    setTimeout(function () {
+        videoPl.pause();
+    }, 60);
+});
