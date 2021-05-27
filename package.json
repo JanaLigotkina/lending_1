@@ -1,6 +1,8 @@
 {
   "name": "lending_1",
   "version": "1.0.0",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
