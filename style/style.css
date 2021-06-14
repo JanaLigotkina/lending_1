@@ -109,7 +109,7 @@ body .menu li:last-child {
 }
 body .first-screen {
   height: 896px;
-  background-image: url("../images/BG.jpg");
+  background-image: url("../../images/BG.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
